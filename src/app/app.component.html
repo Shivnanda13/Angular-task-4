@@ -1,0 +1,36 @@
+<div class="container pt-3 bg-light">
+  <h2 class="section text-white mb-5 py-2 text-center">Pie Chart</h2>
+
+<div class="row">
+  <div class="col-sm-4 mr-3">
+    <div class="card">
+      <div class="card-body">
+        <form #myForm="ngForm" (submit)="createChart()">
+          <div class="form-group">
+            <label for="boxone">First value</label>
+            <input type="number" id="boxone" [(ngModel)]="firstvalue" name="firstvalue" (blur)="updateValue($event)" (input)="validationValue()" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="boxtwo">Second value</label>
+            <input type="number" id="boxtwo" [(ngModel)]="secodvalue" name="secodvalue" (blur)="updateValue($event)" (input)="validationValue()" class="form-control">
+          </div>
+          <div *ngIf="errorMessage" class="text-danger message my-3">Total Value should not be greater than 100!</div>  
+          <div>
+            <button class="btn btn-sm btn-danger float-center px-4" type="submit">Create Chart</button>
+          </div>
+        </form> 
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card flex justify-content-center">
+      <p-chart type="pie" [data]="data"></p-chart>
+  </div>  
+  </div>
+</div>
+
+
+
+</div>
+  
+

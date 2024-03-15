@@ -1,0 +1,55 @@
+{
+  "hash": "bcb26cbc",
+  "configHash": "9d513c33",
+  "lockfileHash": "063c96bb",
+  "browserHash": "97da1729",
+  "optimized": {
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "3acb5c84",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "aa5d593d",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "8046b208",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "c874dea8",
+      "needsInterop": false
+    },
+    "primeng/chart": {
+      "src": "../../../../../node_modules/primeng/fesm2022/primeng-chart.mjs",
+      "file": "primeng_chart.js",
+      "fileHash": "f4b33900",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "489e1efb",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-HBUOU6A3": {
+      "file": "chunk-HBUOU6A3.js"
+    },
+    "chunk-ZAQ2V3T2": {
+      "file": "chunk-ZAQ2V3T2.js"
+    },
+    "chunk-XAPJJV5H": {
+      "file": "chunk-XAPJJV5H.js"
+    }
+  }
+}
